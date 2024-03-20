@@ -1,0 +1,26 @@
+{
+  "name": "crypto-securekeygen",
+  "version": "1.0.0",
+  "description": "A lightweight, powerful password generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/unimpaire/securekey"
+  },
+  "keywords": ["password", "security", "generator"],
+  "author": "Mark Belous",
+  "license": "MIT",
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "chance": "^1.1.8",
+    "validator": "^13.7.0"
+  },
+  "devDependencies": {
+    "jest": "^27.0.6",
+    "@types/jest": "^27.0.2",
+    "typescript": "^4.3.5"
+  }
+}
